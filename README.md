@@ -33,6 +33,20 @@ It uses a Machine Learning model (liver_prediction.pkl) trained with patient dat
 
 >static/ - Static assets (CSS, JS, images)
 
+>templates/ - HTML templates (page.html, index.html)
+
+>HealthCareData.xlsx - Raw dataset (Excel format)
+
+>cleaned_data.csv - Preprocessed dataset
+
+>liver_cirrhosis.ipynb - Jupyter notebook for model training & analysis
+
+>liver_prediction.pkl - Trained ML model file
+
+>model_eval.csv - Model evaluation results
+
+>app.py - Main Flask application
+
 >README.md - Project description and usage guide
 
 ## ⚙️ Installation & Setup
