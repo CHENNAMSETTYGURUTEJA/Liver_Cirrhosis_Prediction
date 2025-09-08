@@ -33,12 +33,6 @@ It uses a Machine Learning model (liver_prediction.pkl) trained with patient dat
 
 >static/ - Static assets (CSS, JS, images)
 
->templates/ - HTML templates (page.html, index.html)
-
->app.py - Main Flask application file
-
->liver_prediction.pkl - Trained Machine Learning model
-
 >README.md - Project description and usage guide
 
 ## ⚙️ Installation & Setup
