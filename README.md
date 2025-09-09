@@ -5,84 +5,86 @@ It uses a Machine Learning model (liver_prediction.pkl) trained with patient dat
 
 ## 🚀 Features
 
->User-friendly web form to enter patient details (age, gender, blood test results, lifestyle habits, etc.)
+✅ User-friendly web form to enter patient details (age, gender, blood test results, lifestyle habits, etc.)
 
->Predicts "Diabetes" or "Non-Diabetes" based on model output (labels can be adjusted based on dataset)
+✅ Predicts "Diabetes" or "Non-Diabetes" based on model output (labels can be adjusted based on dataset)
 
->Built with Flask and Scikit-learn
+✅ Built with Flask and Scikit-learn
 
->Easily deployable on local system or cloud platforms (Heroku, Render, etc.)
+✅ Easily deployable on local system or cloud platforms (Heroku, Render, etc.)
 
 ## 📂 Project Structure
 
->Demo/ - Demo files
+├── Demo/                   # Demo files
 
->Documentation/ - Project documentation
+├── Documentation/          # Project documentation
 
->Ideation Phase/ - Initial ideas and brainstorming
+├── Ideation Phase/         # Initial idea and brainstorming
 
->Performance Testing/ - Testing reports and results
+├── Performance Testing/    # Testing reports
 
->Project Design Phase/ - Design-related files
+├── Project Design Phase/   # Design related files
 
->Project Planning Phase/ - Planning-related files
+├── Project Planning Phase/ # Planning related files
 
->Requirement Analysis/ - Requirement analysis documents
+├── Requirement Analysis/   # Requirement analysis documents
 
->screenshots/ - Screenshots of the app
+├── screenshots/            # Screenshots of the app
 
->static/ - Static assets (CSS, JS, images)
+├── static/                 # CSS, JS, Images
 
->templates/ - HTML templates (page.html, index.html)
+├── templates/              # HTML templates (page.html, index.html)
 
->HealthCareData.xlsx - Raw dataset (Excel format)
+├── app.py                  # Main Flask application
 
->cleaned_data.csv - Preprocessed dataset
+├── liver_prediction.pkl    # Trained ML model
 
->liver_cirrhosis.ipynb - Jupyter notebook for model training & analysis
-
->liver_prediction.pkl - Trained ML model file
-
->model_eval.csv - Model evaluation results
-
->app.py - Main Flask application
-
->README.md - Project description and usage guide
+└── README.md               # Project description
 
 ## ⚙️ Installation & Setup
 
-### 1)Clone this repository
+#### 1)Clone this repository
 
+```bash
 git clone https://github.com/CHENNAMSETTYGURUTEJA/Liver_Cirrhosis_Prediction.git
-
 cd Liver_Cirrhosis_Prediction
+```
 
-### 2)Create a virtual environment (optional but recommended)
+#### 2)Create a virtual environment (optional but recommended)
 
+```bash
 python -m venv venv
+```
 
+```bash
 source venv/bin/activate   # On Mac/Linux
+```
 
+```bash
 venv\Scripts\activate      # On Windows
+```
 
+#### 3)Install dependencies
 
-### 3)Install dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
-### 4)Run the Flask app
+#### 4)Run the Flask app
 
+```bash
 python app.py
+```
 
 ## 🧪 Usage
 
->Open the web app in your browser.
+1️⃣Open the web app in your browser.
 
->Fill in the patient’s details (age, gender, blood test results, alcohol history, etc.).
+2️⃣Fill in the patient’s details (age, gender, blood test results, alcohol history, etc.).
 
->Submit the form.
+3️⃣Submit the form.
 
->The app will display "Diabetes" or "Non-Diabetes" as prediction output.
+4️⃣The app will display "Diabetes" or "Non-Diabetes" as prediction output.
 
 ## 📸 Output
 
