@@ -88,5 +88,8 @@ python app.py
 
 ## 📸 Output
 
-<img width="1918" height="907" alt="Screenshot 2025-06-22 162721" src="https://github.com/user-attachments/assets/8cb743ea-ec7b-4937-bba4-bf853c6bf4ec" />
+<img width="1918" height="907" alt="Screenshot 2025-06-22 162721" src="https://github.com/user-attachments/assets/8cb743ea-ec7b-4937-bba4-bf853c6bf4ec" /> 
+<img width="1908" height="886" alt="Screenshot 2025-06-22 171228" src="https://github.com/user-attachments/assets/020e0d16-bcc9-4520-a134-855793c7794e" />
+<img width="1905" height="410" alt="Screenshot 2025-06-22 171243" src="https://github.com/user-attachments/assets/8086d9db-f24c-4d23-8677-2f0546779386" />
+<img width="902" height="217" alt="Screenshot 2025-06-22 163020" src="https://github.com/user-attachments/assets/74ff21ed-828e-4a78-8910-0c282d336060" />
 
